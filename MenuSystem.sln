@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MenuSystem", "MenuSystem\MenuSystem.vcxproj", "{54FF1F1C-81DC-4779-B1D4-58DD57BD71EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54FF1F1C-81DC-4779-B1D4-58DD57BD71EF}.Debug|x64.ActiveCfg = Debug|x64
+		{54FF1F1C-81DC-4779-B1D4-58DD57BD71EF}.Debug|x64.Build.0 = Debug|x64
+		{54FF1F1C-81DC-4779-B1D4-58DD57BD71EF}.Debug|x86.ActiveCfg = Debug|Win32
+		{54FF1F1C-81DC-4779-B1D4-58DD57BD71EF}.Debug|x86.Build.0 = Debug|Win32
+		{54FF1F1C-81DC-4779-B1D4-58DD57BD71EF}.Release|x64.ActiveCfg = Release|x64
+		{54FF1F1C-81DC-4779-B1D4-58DD57BD71EF}.Release|x64.Build.0 = Release|x64
+		{54FF1F1C-81DC-4779-B1D4-58DD57BD71EF}.Release|x86.ActiveCfg = Release|Win32
+		{54FF1F1C-81DC-4779-B1D4-58DD57BD71EF}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {24774973-EA8B-48D6-8AB6-481FB0DFD0C9}
+	EndGlobalSection
+EndGlobal
