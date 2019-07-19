@@ -2,6 +2,7 @@
 #include<iostream>
 
 #include "Menu.h"
+#include "Utilities.h"
 
 class MainMenu : public Menu {
 public:

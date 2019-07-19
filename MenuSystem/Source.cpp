@@ -3,6 +3,7 @@
 #include<iostream>
 #include "MainMenu.h"
 
-void main() {
+int main() {
 	MainMenu("MenuTitle");
+	return 0;
 }

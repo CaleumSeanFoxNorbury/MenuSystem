@@ -13,30 +13,87 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Menus">
+      <UniqueIdentifier>{b1afb5bc-de51-4979-92bc-852677b8697c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menus">
+      <UniqueIdentifier>{2231e78a-b915-45f4-889e-86e27c4530c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{37f092ed-3457-4373-86c8-2060748c85f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utils">
+      <UniqueIdentifier>{c8179720-4889-4732-977e-fabf37a3409c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Account">
+      <UniqueIdentifier>{d1791a1a-5754-435d-b475-a12ad2a0a191}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Account">
+      <UniqueIdentifier>{0b71e3fd-b57e-48f5-af7c-31e9165a9164}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Menu.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Utilities.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Utils</Filter>
     </ClCompile>
     <ClCompile Include="MainMenu.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="Admin.cpp">
+      <Filter>Source Files\Account</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>Source Files\Account</Filter>
+    </ClCompile>
+    <ClCompile Include="Account.cpp">
+      <Filter>Source Files\Account</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Source Files\Account</Filter>
+    </ClCompile>
+    <ClCompile Include="TemplatedStoredItem.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Account</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="MainMenu.h">
+      <Filter>Header Files\Menus</Filter>
+    </ClInclude>
     <ClInclude Include="Menu.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Menus</Filter>
     </ClInclude>
     <ClInclude Include="Utilities.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Utils</Filter>
     </ClInclude>
-    <ClInclude Include="MainMenu.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Admin.h">
+      <Filter>Header Files\Account</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Header Files\Account</Filter>
+    </ClInclude>
+    <ClInclude Include="Account.h">
+      <Filter>Header Files\Account</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Header Files\Account</Filter>
+    </ClInclude>
+    <ClInclude Include="TemplatedStoredItem.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="List.h">
+      <Filter>Header Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Account</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
